@@ -1,9 +1,20 @@
 function add1(){
-    var txt=document.forms["form1"].somme1.value+="2€";
+    document.forms["form1"].reset();
+    var txt=document.forms["form1"].somme1.value+="2";
     }
     function add2(){
-    var txt=document.forms["form1"].somme1.value+="10€";
+    document.forms["form1"].reset();
+    var txt=document.forms["form1"].somme1.value+="10";
     }
     function add3(){
-    var txt=document.forms["form1"].somme1.value+="50€";
+    document.forms["form1"].reset();
+    var txt=document.forms["form1"].somme1.value+="50";
+    }
+    
+    function valider(){
+    alert("Merci de votre donation!");
+    }
+    
+    function contact(){
+    alert("Nous vous en verrons une réponse dès que possible!");
     }
