@@ -1,0 +1,37 @@
+body{background-color:#a0c8e3;}
+*{margin: 0; 
+padding: 0;}
+  .navbar {
+    display: flex;
+	position: sticky; 
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+	cursor: pointer;
+}
+  .nav-list {
+    width: max-width;
+    display: flex ;
+}
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a {
+	top:25px;
+	font-size:30px;
+    text-decoration: none;
+    color: white;
+	position: relative;
+}
+ .nav-list li a:hover {
+    color: #33e0ff;
+}
+.image{
+	max-width : 100%;
+	height : auto;
+}
+.une {position: center;
+    height: 0px;
+    margin: 0px;
+}
