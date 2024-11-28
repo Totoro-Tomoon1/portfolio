@@ -9,6 +9,20 @@
     <title>portfolio</title>
     <style>
         .text {margin-top: 200px;}
+
+        h1 {
+            font-size: 2rem; /* Taille de base */
+            opacity: 0; /* Invisible au départ */
+            transform: scale(0.5); /* Départ à petite échelle */
+            animation: zoomIn 1.5s ease-out forwards; /* Animation zoom */
+        }
+
+        @keyframes zoomIn {
+            to {
+                opacity: 1; /* Texte devient visible */
+                transform: scale(1); /* Taille normale */
+            }
+        }
     </style>
 </head>
 <body>
