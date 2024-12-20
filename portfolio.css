@@ -47,6 +47,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
+  overflow: auto;
 }
 
 .content {
@@ -221,11 +222,6 @@ section {
   display: block;
   width: 100%;
   height: 100%;
-  opacity: 0.1;
-  transition: all 0.5s ease;
-}
-.sec-portfolio img:hover {
-  opacity: 1;
 }
 
 /*Contact*/
@@ -272,6 +268,9 @@ section {
 .sec-aether {
   background: #755ccd;
   color: #fff;
+  opacity: 1;
+  min-height: 100vh;
+  height: auto;
 }
 
 .sec-aether .content {
@@ -290,6 +289,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
+  overflow: auto;
 }
 
 .col-big {
@@ -303,4 +303,12 @@ html, body {
   margin-top: 10px;
   font-size: 1em;
   color: #755ccd;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 1em;
+}
+
+.content {
+  padding: 2em;
 }/*# sourceMappingURL=portfolio.css.map */

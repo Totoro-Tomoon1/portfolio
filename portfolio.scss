@@ -35,6 +35,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
+  overflow: auto;
 }
 .content {width: 60%;}
 /*Navigation*/
@@ -164,9 +165,6 @@ section {
   display: block;
   width: 100%;
   height: 100%;
-  opacity: .1;
-  @include transition(all);
-  &:hover {opacity: 1;}
 }
 /*Contact*/
 .sec-contact {
@@ -200,6 +198,11 @@ section {
 .sec-aether{
     background: $indianRed;
     color: #fff;
+
+    opacity: 1; // Toujours visible
+
+    min-height: 100vh;
+    height: auto;
   }
   .sec-aether .content {
     height: 55%;
@@ -217,6 +220,7 @@ section {
     padding: 0;
     width: 100%;
     height: 100%;
+    overflow: auto;
   }
 
   .col-big {
@@ -233,3 +237,13 @@ section {
       color: $indianRed;
     }
   }
+
+  $spacing-unit: 1em;
+
+h1, h2, h3, p {
+  margin-bottom: $spacing-unit;
+}
+
+.content {
+  padding: 2 * $spacing-unit;
+}
