@@ -268,6 +268,17 @@ section {
   color: #666;
 }
 
+/*Aether*/
+.sec-aether {
+  background: #755ccd;
+  color: #fff;
+}
+
+.sec-aether .content {
+  height: 55%;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -279,4 +290,17 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
+}
+
+.col-big {
+  text-align: center;
+}
+.col-big img {
+  display: block;
+  margin: 0 auto;
+}
+.col-big p {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #755ccd;
 }/*# sourceMappingURL=portfolio.css.map */
