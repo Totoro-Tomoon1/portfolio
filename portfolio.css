@@ -58,7 +58,7 @@ nav {
   float: right;
   width: 5%; /*9.375em;/*150px*/
   min-height: 100%;
-  background: white;
+  background: #ae7ae9;
   color: #fff;
   overflow: hidden;
   transition: width 0.5s ease;
@@ -172,8 +172,8 @@ section {
 .sec-home {
   float: left;
   position: relative;
-  background: #faeeff;
-  color: white;
+  background: white;
+  color: #ae7ae9;
   opacity: 1;
 }
 
@@ -195,7 +195,7 @@ section {
 
 /*About*/
 .sec-about {
-  background: black;
+  background: #755ccd;
   color: #fff;
 }
 
@@ -206,7 +206,7 @@ section {
 
 /*Portfolio*/
 .sec-portfolio {
-  background: #3bff9d;
+  background: black;
   overflow: hidden;
 }
 
