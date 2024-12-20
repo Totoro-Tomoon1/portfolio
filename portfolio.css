@@ -172,7 +172,7 @@ section {
 .sec-home {
   float: left;
   position: relative;
-  background: white;
+  background: #faeeff;
   color: #ae7ae9;
   opacity: 1;
 }
@@ -206,7 +206,7 @@ section {
 
 /*Portfolio*/
 .sec-portfolio {
-  background: black;
+  background: #c2ffe6;
   overflow: hidden;
 }
 

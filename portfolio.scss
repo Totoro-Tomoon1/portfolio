@@ -1,10 +1,10 @@
 // Variables
-$chocolate: #721ed2;
+$chocolate: #721ed2; //jsp
 $darkSalmon: #ae7ae9; //couleur texte et barre
 $indianRed: #755ccd; //fond about
-$seaShell: white;//#faeeff;
-$yellow: black;//#3bff9d;
-$wheat: #b3f5e1;
+$seaShell: #faeeff; //fond home
+$yellow: #c2ffe6; //fond portfolio
+$wheat: #b3f5e1; //fond contact
 
 // Mixins
 @mixin transition($property) {
