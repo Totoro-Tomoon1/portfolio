@@ -58,7 +58,7 @@ nav {
   float: right;
   width: 5%; /*9.375em;/*150px*/
   min-height: 100%;
-  background: #ae7ae9;
+  background: white;
   color: #fff;
   overflow: hidden;
   transition: width 0.5s ease;
@@ -173,7 +173,7 @@ section {
   float: left;
   position: relative;
   background: #faeeff;
-  color: #ae7ae9;
+  color: white;
   opacity: 1;
 }
 
@@ -195,7 +195,7 @@ section {
 
 /*About*/
 .sec-about {
-  background: #755ccd;
+  background: black;
   color: #fff;
 }
 
