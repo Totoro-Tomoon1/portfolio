@@ -3,7 +3,7 @@ $chocolate: #721ed2;
 $darkSalmon: #ae7ae9;
 $indianRed: #755ccd;
 $seaShell: #faeeff;
-$yellow: #3bfff5;
+$yellow: #3bff9d;
 $wheat: #b3f5e1;
 
 // Mixins
@@ -95,13 +95,13 @@ input:checked ~ nav > label + .navigation {display: flex;}
 }
 nav label,
 .navigation a {
-  border-bottom: 1px dashed #eda790;
+  border-bottom: 1px dashed #90ede1;
   @include transition(all);
   &:hover {
-    background: #e58564;
+    background: #64e5d0;
     text-shadow: none;
   }
-  &:active {background: #eda790;}
+  &:active {background: #90ede1;}
 }
 /*Sections*/
 section {
@@ -132,12 +132,12 @@ section {
   opacity: 1;
 }
 .sec-home a {
-  color: #eda790;
+  color: #90ede1;
   text-decoration-style: dashed;
   &:hover {
-    color: #e58564;
+    color: #64e5d0;
   }
-  &:active {color: #eda790;}
+  &:active {color: #90ede1;}
 }
 .sec-home .content {
   height: 50%;
