@@ -267,6 +267,15 @@ section {
   color: #666;
 }
 
+.soc-media li {
+  display: block; /* Les éléments de liste occupent une ligne entière */
+  margin-bottom: 10px; /* Facultatif : ajoute un espacement entre les éléments */
+}
+
+.soc-media li a {
+  display: block; /* Les liens eux-mêmes forcent également un saut de ligne */
+}
+
 /*Aether*/
 .sec-aether {
   background: #755ccd;
@@ -279,6 +288,7 @@ section {
 .sec-aether .content {
   height: 55%;
   text-align: center;
+  align-content: center;
 }
 
 * {
