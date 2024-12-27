@@ -291,6 +291,20 @@ section {
   align-content: center;
 }
 
+.sec-aether a {
+  display: block;
+  color: #aaa;
+  font-size: 2em;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+.sec-aether a:hover {
+  color: #333;
+}
+.sec-aether a:active {
+  color: #666;
+}
+
 * {
   margin: 0;
   padding: 0;
