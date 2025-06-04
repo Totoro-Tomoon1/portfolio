@@ -154,18 +154,28 @@ section {
   text-align: center;
 }
 /*Portfolio*/
-.sec-portfolio {background: $yellow;overflow: hidden;}
+.sec-portfolio {
+  background: $yellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em;
+}
+
 .sec-portfolio .col-big {
-  float: left;
-  position: relative;
-  width: 25%;
-  height: 20vw;
+  flex: 1 1 250px; // largeur minimale de 250px
+  max-width: 300px; // pour éviter qu’ils s’étendent trop
+  text-align: center;
 }
+
+
 .sec-portfolio img {
-  display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
+  display: block;
 }
+
 /*Contact*/
 .sec-contact {
   background: $wheat;
@@ -246,4 +256,9 @@ h1, h2, h3, p {
 
 .content {
   padding: 2 * $spacing-unit;
+}
+
+.col-break {
+  flex-basis: 100%;
+  height: 0;
 }
