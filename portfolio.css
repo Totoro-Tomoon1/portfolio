@@ -326,7 +326,7 @@ html, body {
   text-align: center;
 }
 .col-big img {
-  display: block;
+  display: flex;
   margin: 0 auto;
 }
 .col-big p {
@@ -347,3 +347,10 @@ h1, h2, h3, p {
   flex-basis: 100%;
   height: 0;
 }/*# sourceMappingURL=portfolio.css.map */
+
+.row {
+  display: block;
+  justify-content: center;
+  gap: 10px;
+  width: 100%; /*force full width*/
+}
