@@ -63,9 +63,6 @@ nav {
   color: #fff;
   overflow: hidden;
   transition: width 0.5s ease;
-  position: fixed;
-  top: 0;
-  right: 0;
 }
 
 nav label {
@@ -270,15 +267,6 @@ section {
   color: #666;
 }
 
-.soc-media li {
-  display: block; /* Les éléments de liste occupent une ligne entière */
-  margin-bottom: 10px; /* Facultatif : ajoute un espacement entre les éléments */
-}
-
-.soc-media li a {
-  display: block; /* Les liens eux-mêmes forcent également un saut de ligne */
-}
-
 /*Aether*/
 .sec-aether {
   background: #755ccd;
@@ -291,21 +279,6 @@ section {
 .sec-aether .content {
   height: 55%;
   text-align: center;
-  align-content: center;
-}
-
-.sec-aether a {
-  display: block;
-  color: #aaa;
-  font-size: 2em;
-  text-decoration: none;
-  transition: color 0.5s ease;
-}
-.sec-aether a:hover {
-  color: #333;
-}
-.sec-aether a:active {
-  color: #666;
 }
 
 * {
@@ -326,7 +299,7 @@ html, body {
   text-align: center;
 }
 .col-big img {
-  display: flex;
+  display: block;
   margin: 0 auto;
 }
 .col-big p {
@@ -347,10 +320,3 @@ h1, h2, h3, p {
   flex-basis: 100%;
   height: 0;
 }/*# sourceMappingURL=portfolio.css.map */
-
-.row {
-  display: block;
-  justify-content: center;
-  gap: 10px;
-  width: 100%; /*force full width*/
-}
