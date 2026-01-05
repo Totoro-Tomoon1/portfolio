@@ -56,13 +56,16 @@ body {
 
 /*Navigation*/
 nav {
-  float: right;
-  width: 5%; /*9.375em;/*150px*/
-  min-height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0; /* puisque ton nav est à droite */
+  width: 6%;
+  height: 100vh; /* prend toute la hauteur de la fenêtre */
   background: #ae7ae9;
   color: #fff;
   overflow: hidden;
   transition: width 0.5s ease;
+  z-index: 1000; /* pour être au-dessus du contenu */
 }
 
 nav label {
@@ -102,7 +105,7 @@ input:checked ~ section {
 }
 
 input:checked ~ nav {
-  width: 15%;
+  width: 16%;
 }
 
 input:checked ~ nav > label:before {
